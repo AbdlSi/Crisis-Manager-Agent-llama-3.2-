@@ -35,8 +35,12 @@ LLaMA-FineTuning-Project/
 │
 ├── data/
 │   ├── llama_formated_prompt.jsonl     
-│   └── responses.jsonl                 
-│                   
+│   └── responses.jsonl
+│
+├── output/
+│   └── Inference_Logs(screenshots)           
+│
+├── Final_Report                 
 ├── requirements.txt                   
 └── README.md
 ```
