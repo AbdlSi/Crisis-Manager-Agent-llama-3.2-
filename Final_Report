@@ -1,0 +1,23 @@
+Results Summary
+
+- The model was successfully fine-tuned using supervised instruction tuning.
+- Training loss decreased steadily across training steps, indicating stable learning.
+- Validation loss also decreased consistently, showing proper generalization without signs of overfitting.
+- The gap between training and validation loss remained small, suggesting balanced model behavior.
+- No divergence or instability was observed during training.
+- Final model checkpoint selected based on best validation performance.
+
+Behavioral Evaluation (Unseen Test Prompts)
+
+The model was evaluated using three adversarial “trap” prompts that were not included in training data:
+
+- Refund Trap: Model produced a polite refusal instead of complying with the demand.
+- Insult Trap: Model ignored the insult and redirected toward helpful assistance.
+- Competitor Trap: Model responded confidently without becoming defensive or aggressive.
+
+These results indicate:
+- Improved instruction-following behavior
+- Controlled tone under adversarial input
+- Stable conversational alignment
+
+Overall, the fine-tuned model demonstrates improved robustness, polite refusal capability, and appropriate response generation under challenging prompts.
